@@ -77,4 +77,24 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-# tas-kag-t-makas-oyunu
+# tas-kagit-makas-oyunu
+
+ Bu React Native projesi, taş, kağıt, makas oyununu içerir ve kullanıcı ile bilgisayar arasında oynanabilir. Oyunun temel mantığı, kullanıcının seçimine bağlı olarak bilgisayarın rastgele bir seçim yapması ve kazananın belirlenmesidir.
+
+## Proje Yapısı
+
+Proje, React Native'in temel bileşenlerini kullanarak oluşturulmuştur. Ana bileşen olan Login, oyunun temel işleyişini yönetir. MockData klasörü, taş, kağıt, makas gibi seçeneklerin tanımlandığı verileri içerir. Renkler ve diğer stil özellikleri color klasöründe sabit olarak tanımlanmıştır.
+
+## Bileşenler ve Fonksiyonlar
+
+handleUserChoice: Kullanıcının seçimini yönetir ve bilgisayarın seçimini belirlemek için randomComputerChoice fonksiyonunu çağırır.
+randomComputerChoice: Bilgisayarın rastgele bir seçim yapmasını sağlar ve kazananı belirlemek için determineWinner fonksiyonunu çağırır.
+determineWinner: Kullanıcının seçimine ve bilgisayarın seçimine göre kazananı belirler.
+Stiller
+Projenin stil dosyaları styles nesnesi içinde tanımlanmıştır. Renkler, yazı tipleri ve düğme stilleri bu dosyada yer alır.
+
+## Nasıl Oynanır
+
+Kullanıcı, taş, kağıt veya makastan birini seçer.
+Bilgisayar rastgele bir seçim yapar.
+Kazanan belirlenir ve sonuç ekranda görüntülenir.
